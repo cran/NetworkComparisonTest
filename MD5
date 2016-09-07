@@ -1,0 +1,9 @@
+c92c42a9bb4aaaf13ee152c948b7ae8c *DESCRIPTION
+cd9a0b3170eb47e9e565f91c01785da4 *NAMESPACE
+c04417e6789ae2763e0b521c0db6e0bd *R/NCT.R
+a68321b5a8ee5b0e14dacee49e89984a *R/s3Methods.R
+e19220c9e6eb750f01e81afb209c3a24 *inst/COPYING
+121bcefa9153eaf9ac65ee419f00e3b0 *inst/COPYRIGHTS
+b6d80052dd6bf36d2565822fcb961018 *man/methods.Rd
+f54a027c012e806e425033ce00f8d2ea *man/networkcomparisontest-package.Rd
+2265068979156ee123dee122354b3332 *man/networkcomparisontest.rd
