@@ -2,8 +2,8 @@ Package: NetworkComparisonTest
 Type: Package
 Title: Statistical Comparison of Two Networks Based on Three Invariance
         Measures
-Version: 2.0.0
-Date: 2016-9-6
+Version: 2.0.1
+Date: 2016-10-28
 Author: Claudia D. van Borkulo, with contributions from Sacha Epskamp and Alex Millner
 Maintainer: Claudia van Borkulo <cvborkulo@gmail.com>
 Imports: qgraph, IsingFit, IsingSampler, reshape2, stats, graphics,
@@ -18,6 +18,6 @@ Description: This permutation based hypothesis test, suited for Gaussian and
 License: GPL-2
 RoxygenNote: 5.0.1
 NeedsCompilation: no
-Packaged: 2016-09-06 20:56:46 UTC; claudiavb
+Packaged: 2016-10-28 13:43:36 UTC; claudiavanborkulo
 Repository: CRAN
-Date/Publication: 2016-09-07 02:16:12
+Date/Publication: 2016-10-29 00:25:00
