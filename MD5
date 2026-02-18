@@ -1,4 +1,4 @@
-ca42ae3fe5ba31422dc9cc5864ce4882 *DESCRIPTION
+24bbaace53e2a05d70b9e1f0456e1d21 *DESCRIPTION
 eb49bd1c44be97e7181a0e7203a0864e *NAMESPACE
 ff46ad6e19272334aeb8b8b740cc7132 *NEWS.md
 f858791566b15064bd1621360dac8ab6 *R/NCT.R
@@ -10,11 +10,11 @@ f858791566b15064bd1621360dac8ab6 *R/NCT.R
 1bb0fd696ee6b96376cb082389987c05 *inst/CITATION
 e19220c9e6eb750f01e81afb209c3a24 *inst/COPYING
 121bcefa9153eaf9ac65ee419f00e3b0 *inst/COPYRIGHTS
-f3d4c52c5588a4e8fa37de780d88b9ea *inst/examples/ex-NCT.R
-32805e0242f0a6b164c40419478cdb3d *man/NCT.Rd
+5f5f9f6acd94149045f7be15a89fde43 *inst/examples/ex-NCT.R
+fc0b49b8ddb5fafa603127691040312d *man/NCT.Rd
 b3f8845353d5c8bb47d0338e960529e4 *man/networkcomparisontest-package.Rd
 55502431eb1d31542e07284f6e21c674 *man/plot.NCT.Rd
 0a4f61994f08d8b9bae1931361801d77 *man/summary.NCT.Rd
 33630fef665462b9eeb638d691c1f655 *tests/testthat.R
 69afb1f8da1ea9087155aceaae6a31bd *tests/testthat/_snaps/NCT.md
-7e9f4c3b1c59507aeb13f72ad6f33d13 *tests/testthat/test-NCT.R
+a4dd56703890dd816501625e11cd733a *tests/testthat/test-NCT.R

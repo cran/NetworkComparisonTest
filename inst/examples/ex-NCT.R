@@ -1,6 +1,4 @@
-library(IsingSampler)
-library(IsingFit)
-library(bootnet)
+if (require(IsingSampler) && require(IsingFit) && require(bootnet)) {
 
 ### Simulate binary datasets under null hypothesis:
 ### underlying network structures are similar
@@ -87,4 +85,5 @@ NCT_d = NCT(est_1, est_2, paired = TRUE, abs = FALSE, test.edges = TRUE,
             edges = list(c(1,2),c(3,6)), test.centrality = TRUE, 
             centrality = c("expectedInfluence"), nodes = "all", it=10)
 summary(NCT_d)
+}
 }

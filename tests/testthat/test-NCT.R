@@ -1,3 +1,6 @@
+testthat::skip_if_not_installed("IsingSampler")
+testthat::skip_if_not_installed("IsingFit")
+testthat::skip_if_not_installed("bootnet")
 suppressPackageStartupMessages({
   library(IsingSampler)
   library(IsingFit)

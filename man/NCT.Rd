@@ -99,9 +99,7 @@ NCT returns a 'NCT' object that contains the following items:
 This permutation based hypothesis test, suited for several types of data supported by the estimateNetwork function of the bootnet package (Epskamp & Fried, 2018), assesses the difference between two networks based on several invariance measures (network structure invariance, global strength invariance, edge invariance, several centrality measures, etc.). Network structures are estimated with l1-regularization. The Network Comparison Test is suited for comparison of independent (e.g., two different groups) and dependent samples (e.g., one group that is measured twice).
 }
 \examples{
-library(IsingSampler)
-library(IsingFit)
-library(bootnet)
+if (require(IsingSampler) && require(IsingFit) && require(bootnet)) {
 
 ### Simulate binary datasets under null hypothesis:
 ### underlying network structures are similar
@@ -188,5 +186,6 @@ NCT_d = NCT(est_1, est_2, paired = TRUE, abs = FALSE, test.edges = TRUE,
             edges = list(c(1,2),c(3,6)), test.centrality = TRUE, 
             centrality = c("expectedInfluence"), nodes = "all", it=10)
 summary(NCT_d)
+}
 }
 }
